@@ -10,14 +10,36 @@ module.exports = function(grunt) {
   }, {
     browserName: "googlechrome",
     platform: "linux"
-  }, {
-    browserName: "internet explorer",
-    platform: "WIN8",
-    version: "10"
+
   }, {
     browserName: 'internet explorer',
     platform : 'Windows XP',
     version: '6'
+  }, {
+    browserName: 'internet explorer',
+    platform : 'Windows XP',
+    version: '7'
+  }, {
+    browserName: 'internet explorer',
+    platform : 'Windows XP',
+    version: '8'
+  }, {
+    browserName: 'internet explorer',
+    platform : 'Windows 7',
+    version: '8'
+  }, {
+    browserName: 'internet explorer',
+    platform : 'Windows 7',
+    version: '9'
+  }, {
+    browserName: 'internet explorer',
+    platform : 'Windows 7',
+    version: '10'
+  }, {
+    browserName: 'internet explorer',
+    platform : 'Windows 8',
+    version: '10'
+
   }];
 
   grunt.initConfig({
