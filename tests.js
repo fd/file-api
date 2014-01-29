@@ -17,9 +17,9 @@ function xhr() {
 }
 
 test("Detected xhr.upload", function(){
-  ok(Object.keys(xhr()).indexOf("upload") >= 0, "OK!")
+  notEqual(xhr().upload, false, "OK!")
 });
 
 test("Detected xhr.upload.onprogress", function(){
-  ok(Object.keys(xhr().upload).indexOf("onprogress") >= 0, "OK!")
+  notEqual(xhr().upload.onprogress, false, "OK!")
 });
