@@ -4,13 +4,46 @@ module.exports = function(grunt) {
     browserName: "firefox",
     version: "19",
     platform: "XP"
-  }, {
-    browserName: "googlechrome",
-    platform: "XP"
-  }, {
-    browserName: "googlechrome",
-    platform: "linux"
 
+    // Chrome
+  }, {
+    browserName: "chrome",
+    platform: "Linux",
+    version:  "30"
+  }, {
+    browserName: "chrome",
+    platform: "Linux",
+    version:  "29"
+  }, {
+    browserName: "chrome",
+    platform: "Windows XP",
+    version:  "31"
+  }, {
+    browserName: "chrome",
+    platform: "Windows 7",
+    version:  "31"
+  }, {
+    browserName: "chrome",
+    platform: "Windows 8",
+    version:  "31"
+  }, {
+    browserName: "chrome",
+    platform: "Windows 8.1",
+    version:  "31"
+  }, {
+    browserName: "chrome",
+    platform: "OS X 10.6",
+    version:  "31"
+  }, {
+    browserName: "chrome",
+    platform: "OS X 10.8",
+    version:  "31"
+  }, {
+    browserName: "chrome",
+    platform: "OS X 10.9",
+    version:  "31"
+
+    // IE
   }, {
     browserName: 'internet explorer',
     platform : 'Windows XP',
